@@ -6,7 +6,7 @@ Add The Bot to Your Desired Channel as Admin and Send Messages to The Bot to For
 
 ### Deploying on Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adithyan1133-ctrl/CHNL-Forward-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adithyan1133-ctrl/CHNL-Forward-Bot/tree/main)
 
 ### USAGE
 ```
