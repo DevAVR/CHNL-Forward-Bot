@@ -5,7 +5,7 @@
       "telegram"
     ],
     "success_url": "https://github.com/Adithyan1133-ctrl/CHNL-Forward-Bot",
-    "website": "https://githib.com/TroJanzHEX",
+    "website": "https://github.com/TroJanzHEX",
     "repository": "https://github.com/Adithyan1133-ctrl/CHNL-Forward-Bot",
     "env": {
       "WEBHOOK": {
