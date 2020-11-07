@@ -1,41 +1,45 @@
 {
-    "name": "CHNL-Forward-Bot",
-    "description": "A Simple Forward bot",
+    "name": "Channel Forward Bot",
+    "description": "A simple Message Forwarder Bot",
     "keywords": [
-      "telegram"
+        "telegram",
+        "torrent",
+        "searcher"
     ],
-    "success_url": "https://github.com/Adithyan1133-ctrl/CHNL-Forward-Bot",
-    "website": "https://github.com/TroJanzHEX",
+    "website": "https://github.com/Adithyan1133-ctrl/CHNL-Forward-Bot",
     "repository": "https://github.com/Adithyan1133-ctrl/CHNL-Forward-Bot",
     "env": {
-      "WEBHOOK": {
-        "description": "Setting This to ANYTHING",
-        "value": "ANYTHING"
-      },
-      "TG_BOT_TOKEN": {
-        "description": "Your bot token, as a string.",
-        "value": ""
-      },
-      "APP_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": ""
-      },
-      "CHANNEL_ID": {
-        "description": "Id Of The Channel Where The MSG To Be Forwaded like -10012345678",
-        "value": ""
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": ""
-      }  
+        "TG_BOT_TOKEN": {
+            "description": "Your Bot Token",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash",
+            "value": ""
+        },
+        "CHANNEL_ID: {
+            "description": "Your Channel Id",
+            "value": ""
+        },
+        "WEBHOOK": {
+            "description": "Set this to ANYTHING,
+            "value": "ANYTHING"
+        },
+        "APP_ID": {
+            "description": "Your APP ID",
+            "value": ""
+        }
     },
-    "buildpacks": [{
-      "url": "heroku/python"
-    }],
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
     "formation": {
-      "worker": {
-        "quantity": 1,
-        "size": "free"
-      }
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
     }
-  }
+}
