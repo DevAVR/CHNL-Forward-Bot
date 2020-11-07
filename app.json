@@ -1,0 +1,41 @@
+{
+    "name": "CHNL-Forward-Bot",
+    "description": "A Simple Forward bot",
+    "keywords": [
+      "telegram"
+    ],
+    "success_url": "https://github.com/Adithyan1133-ctrl/CHNL-Forward-Bot",
+    "website": "https://githib.com/TroJanzHEX",
+    "repository": "https://github.com/Adithyan1133-ctrl/CHNL-Forward-Bot",
+    "env": {
+      "WEBHOOK": {
+        "description": "Setting This to ANYTHING",
+        "value": "ANYTHING"
+      },
+      "TG_BOT_TOKEN": {
+        "description": "Your bot token, as a string.",
+        "value": ""
+      },
+      "APP_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": ""
+      },
+      "CHANNEL_ID": {
+        "description": "Id Of The Channel Where The MSG To Be Forwaded like -10012345678",
+        "value": ""
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": ""
+      }  
+    },
+    "buildpacks": [{
+      "url": "heroku/python"
+    }],
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    }
+  }
