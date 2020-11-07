@@ -17,12 +17,12 @@
             "description": "Your API Hash",
             "value": ""
         },
-        "CHANNEL_ID: {
+        "CHANNEL_ID": {
             "description": "Your Channel Id",
             "value": ""
         },
         "WEBHOOK": {
-            "description": "Set this to ANYTHING,
+            "description": "Set this to ANYTHING",
             "value": "ANYTHING"
         },
         "APP_ID": {
