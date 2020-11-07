@@ -1,8 +1,8 @@
 # Channel Forward Bot
-A Simple Bot To Forward Files Send to The Bot to Any Channel.
+A Simple Bot To Forward Messages Send to The Bot to Any Channel.
 
 ### HELP
-Add The Bot to Your Desired Channel as Admin and Send Files to The Bot to Forward It.
+Add The Bot to Your Desired Channel as Admin and Send Messages to The Bot to Forward It.
 
 ### Deploying on Heroku:
 
@@ -18,6 +18,6 @@ Add The Bot to Your Desired Channel as Admin and Send Files to The Bot to Forwar
 TG_BOT_TOKEN - Your Bot Token
 APP_ID - Your APP ID
 API_HASH - Your API Hash
-CHANNEL_ID - Channel ID to Forward Medias.
+CHANNEL_ID - Channel ID to Forward Messages.
 
 ```
