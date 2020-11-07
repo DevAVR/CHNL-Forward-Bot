@@ -34,7 +34,7 @@ async def help(bot, update):
     )    
    
 
-@pyrogram.Client.on_message(Filters.private & Filters.media)
+@pyrogram.Client.on_message(Filters.private & Filters.text)
 async def forward(bot, message):
     try:
         await message.forward(
