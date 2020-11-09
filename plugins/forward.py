@@ -34,7 +34,7 @@ async def help(bot, update):
     )    
    
 
-@pyrogram.Client.on_message(Filters.group & Filters.private)
+@pyrogram.Client.on_message(Filters.group & Filters.media or Filters.group & Filters.media)
 async def forward(bot, message):
     if Filters.media:
         try:
